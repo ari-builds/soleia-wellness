@@ -44,7 +44,7 @@
       '<header class="top" id="topbar">' +
         '<div class="inner top-inner">' +
           '<a class="brand" href="index.html" aria-label="Soleia Wellness home">' +
-            '<img class="logo-img" src="assets/logo.png" alt="Soleia Wellness">' +
+            '<span class="logo-text">Soleia <i>Wellness</i></span>' +
           "</a>" +
           '<button class="burger" id="menuBtn" aria-label="Open menu" aria-controls="menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
@@ -54,7 +54,7 @@
       '<nav class="menu" id="menu" aria-hidden="true">' +
         '<div class="menu-inner">' +
           '<div class="menu-top">' +
-            '<img class="logo-img" src="assets/logo.png" alt="Soleia Wellness">' +
+            '<span class="logo-text">Soleia <i>Wellness</i></span>' +
             '<button class="menu-x" id="menuClose" aria-label="Close menu">&#10005;</button>' +
           "</div>" +
           '<div class="menu-groups">' +
@@ -93,7 +93,7 @@
         '<div class="inner">' +
           '<div class="foot-grid">' +
             '<div class="foot-brand">' +
-              '<img class="logo-img" src="assets/logo.png" alt="Soleia Wellness">' +
+              '<span class="logo-text">Soleia <i>Wellness</i></span>' +
               "<p>Recover. Restore. Renew.<br>" +
               '<span class="foot-loc"><b>Where:</b> North Carolina</span> ' +
               '<span class="foot-loc"><b>Opens:</b> ' + OPEN_MONTH + "</span></p>" +
