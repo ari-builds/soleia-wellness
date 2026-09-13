@@ -250,11 +250,13 @@
   renderCalendar();
 
   var topbar = $("topbar");
-  function onScroll() {
-    topbar.classList.toggle("scrolled", window.scrollY > 10);
+  if (topbar) {
+    function onScroll() {
+      topbar.classList.toggle("scrolled", window.scrollY > 10);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
   }
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
 
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(function (entries) {
