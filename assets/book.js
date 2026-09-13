@@ -30,6 +30,9 @@
     time: null,
   };
 
+  var shell = document.getElementById("bookShell");
+  if (!shell) return;
+
   var $ = function (id) { return document.getElementById(id); };
   var chipsEl = $("chipsServices");
   var calGrid = $("calGrid");
