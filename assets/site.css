@@ -34,18 +34,15 @@ button { font-family: inherit; cursor: pointer; }
 .inner { max-width: 1100px; margin: 0 auto; padding: 0 1.4rem; }
 .section { max-width: 1100px; margin: 0 auto; padding: 0 1.4rem; }
 
-/* ---- brand / logo (text wordmark) ---- */
-.logo-text {
-  font-family: var(--font-d);
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: .005em;
-  line-height: 1;
-  white-space: nowrap;
+/* ---- brand / logo ---- */
+.logo-img {
+  height: 46px;
+  width: auto;
+  border-radius: 12px;
+  background: var(--teal-deep);
+  border: 1px solid rgba(255, 255, 255, .08);
 }
-.logo-text i { font-style: italic; color: var(--gold); }
-@media (max-width: 520px) { .logo-text { font-size: 1.3rem; } }
+@media (max-width: 520px) { .logo-img { height: 38px; } }
 
 /* ---- top nav ---- */
 .top {
@@ -244,7 +241,7 @@ footer h4 { font-size: .78rem; letter-spacing: .22em; text-transform: uppercase;
 .links { display: grid; gap: .45rem; }
 .links a { font-size: .93rem; }
 .links a:hover { color: var(--teal-deep); }
-footer .logo-text { font-size: 1.6rem; }
+footer .logo-img { margin-bottom: .9rem; }
 .copy { font-size: .85rem; color: var(--teal); border-top: 1px solid var(--gray); padding-top: 1.2rem; }
 
 /* ---- toast ---- */
